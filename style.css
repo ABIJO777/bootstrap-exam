@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navigation bar */
+header {
+    background-color:white;
+    color:white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav ul li a {
+    text-align: green;
+    color: #065e1d;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+
+    background-color: #f8f4f4;
+}
+.btn:hover{
+    background-color: green;
+    color: rgb(4, 95, 4);
+    
+}
+.hover-button {
+    background-color: #064812;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #034f10;
+}
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: width 0.3s ease;
+  }
+  
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  .overlayer{
+   
+    color: #034f10;
+    position: absolute;
+    top: 250px;
+    left:40px ;
+    color: rgb(234, 244, 236);
+    }
+    .overlayer h1{
+      
+        color: #064812;
+    }
+    .overlayer p{
+        color: #034f10;
+    }
+    
+    .term-container {
+        display:flex;
+        text-align: center;
+        color: #064812;
+        font-size: larger;
+    }
+    
